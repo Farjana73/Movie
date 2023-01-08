@@ -1,0 +1,60 @@
+
+/*nav part start*/ 
+@import '../variable/variable';
+
+#navbar{
+    background: transparent !important;
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 30px 0;
+
+    .navbar-nav {
+  
+        li{
+    
+            margin-left: 50px;
+            a{
+                color: $white !important;
+                font-family: $poppins;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                letter-spacing: 0.15em;
+                line-height: 1.2;
+                &:focus{
+                    color: green !important;
+                }
+            }
+          
+        }
+    }
+}
+
+/*side menu start*/ 
+
+.offcanvas-body ul{
+    text-align: center;
+}
+.offcanvas-body ul li a{
+    color: $btn_back;
+    font-family: $poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    position: relative;
+
+}
+
+.offcanvas-start {
+	top: 55px !important;
+}
+
+.offcanvas-header .btn-close {
+	display: none;
+}
+
+/*side menu start*/ 
+
+/*nav part end*/ 

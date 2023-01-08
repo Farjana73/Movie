@@ -1,0 +1,622 @@
+
+/* Extra small device start */
+
+@media (max-width:575.98px){
+/* navbar part start */
+    #navbar {
+        background: rgba(0, 0, 0, 0.775) !important;
+        position: fixed;
+        padding: 5px 0;
+        z-index: 999;
+    }
+
+  
+    .navbar-brand {
+    
+        margin-right: 0;
+       
+    }
+    .container .navbar-brand {
+       width: 150px;
+    }
+    .navbar-brand a img{
+        width: 100%;
+        height: 100%;
+     }
+
+/* animation click button start */
+     .animation_cls_btn{
+        width: 40px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        flex-wrap: wrap;
+        padding: 3px;
+        background: transparent;
+        border: none;
+        
+    }
+
+    .animation_cls_btn:focus{
+        background: transparent;
+        box-shadow: none;
+        border: none;
+        outline: 0;
+        
+    }
+
+    .animation_cls_btn span{
+        width: 100%;
+        height: 3px;
+        background: #fff;
+        border-radius: 2px;
+    }
+    
+    .animation_cls_btn span:nth-child(2){
+        height: 2px;
+    }
+
+    .animation_cls_btn span.rotate_1{
+        transform: rotate(48deg) translateX(12px);
+    }
+
+    .animation_cls_btn span.hide{ 
+    transform: translateX(-5px);
+    opacity: 0;
+    visibility: hidden;
+        
+    }
+    .animation_cls_btn span.rotate_2{
+        transform: rotate(132deg) translateX(-12px);
+    }
+
+/* animation click button end */
+
+
+/* navbar part end */
+
+/* Banner part start */
+
+
+#banner .overlay .banner_btn button {
+	font-size: 20px;
+	padding: 10px 17px;
+}
+
+#banner .overlay .banner_information h6 {
+	text-align: center;
+}
+
+#banner .overlay .banner_information p {
+	text-align: justify;
+}
+#banner .overlay .banner_information h1 {
+	font-size: 55px;
+}
+
+#banner .overlay .banner_information h1 span {
+	font-size: 40px;
+}
+
+.banner_btn{
+    justify-content: center;
+}
+
+#banner .overlay .banner_btn button {
+	height: 50px;
+}
+
+/* Banner part end */
+
+/* entertainment part start */
+
+#entertainment {
+	padding: 75px 0;
+}
+
+#entertainment .quality_item .content h2 {
+	font-size: 35px;
+	text-align: center;
+}
+
+#entertainment .quality_item .content p {
+	font-size: 14px;
+	text-align: justify;
+}
+
+#entertainment .quality_item .content button {
+    font-size: 22px;
+	padding: 10px 19px;
+    margin-bottom: 35px;
+}
+
+#entertainment .content_img {
+	height: 250px;
+	width: auto;
+	margin-left: 0;
+	margin: 0 auto;
+}
+
+#entertainment .col-lg-6{
+    text-align: center;
+}
+
+/* entertainment part end */
+
+/* footer part start */
+
+#footer .overlay .footer_icon {
+    gap: 5px;
+    
+    }
+    
+    #footer .overlay .footer_icon a {
+    max-width: 28px;
+    height: 28px;
+    flex-wrap: wrap;
+    
+    }
+    
+    #footer .overlay .paragraph .image {
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    
+    }
+    
+    #footer .overlay .paragraph .image p {
+    text-align: justify;
+    }
+    
+    
+    #footer .copy_part h2 {
+        width: auto; 
+        text-align: center;
+    }
+    
+    
+    
+    /* footer part end */
+}
+
+
+
+
+/* Extra small device end */
+
+/* Small device start */
+@media  (min-width:576px) and (max-width:767.98px){
+    /* navbar part start */
+    #navbar {
+        background: rgba(0, 0, 0, 0.775) !important;
+        position: fixed;
+        padding: 5px 0;
+        z-index: 999;
+    }
+
+  
+    .navbar-brand {
+    
+        margin-right: 0;
+       
+    }
+    .container .navbar-brand {
+       width: 150px;
+    }
+    .navbar-brand a img{
+        width: 100%;
+        height: 100%;
+     }
+
+/* animation click button start */
+     .animation_cls_btn{
+        width: 40px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        flex-wrap: wrap;
+        padding: 3px;
+        background: transparent;
+        border: none;
+        
+    }
+
+    .animation_cls_btn:focus{
+        background: transparent;
+        box-shadow: none;
+        border: none;
+        outline: 0;
+        
+    }
+
+    .animation_cls_btn span{
+        width: 100%;
+        height: 3px;
+        background: #fff;
+        border-radius: 2px;
+    }
+    
+    .animation_cls_btn span:nth-child(2){
+        height: 2px;
+    }
+
+    .animation_cls_btn span.rotate_1{
+        transform: rotate(48deg) translateX(12px);
+    }
+
+    .animation_cls_btn span.hide{ 
+    transform: translateX(-5px);
+    opacity: 0;
+    visibility: hidden;
+        
+    }
+    .animation_cls_btn span.rotate_2{
+        transform: rotate(132deg) translateX(-12px);
+    }
+
+/* animation click button end */
+
+
+/* navbar part end */
+
+/* Banner part start */
+
+
+#banner .overlay .banner_btn button {
+	font-size: 20px;
+	padding: 10px 17px;
+}
+
+#banner .overlay .banner_information h6 {
+	text-align: center;
+}
+
+#banner .overlay .banner_information p {
+	text-align: justify;
+}
+#banner .overlay .banner_information h1 {
+	font-size: 55px;
+}
+
+#banner .overlay .banner_information h1 span {
+	font-size: 40px;
+}
+
+.banner_btn{
+    justify-content: center;
+}
+
+#banner .overlay .banner_btn button {
+	height: 50px;
+}
+
+/* Banner part end */
+
+/* entertainment part start */
+
+#entertainment {
+	padding: 75px 0;
+}
+
+#entertainment .quality_item .content h2 {
+	font-size: 35px;
+	text-align: center;
+}
+
+#entertainment .quality_item .content p {
+	font-size: 14px;
+	text-align: justify;
+}
+
+#entertainment .quality_item .content button {
+    font-size: 22px;
+	padding: 10px 19px;
+    margin-bottom: 35px;
+}
+
+#entertainment .content_img {
+	height: 250px;
+	width: auto;
+	margin-left: 0;
+	margin: 0 auto;
+}
+
+#entertainment .col-lg-6{
+    text-align: center;
+}
+
+/* entertainment part end */
+
+/* footer part start */
+
+#footer .overlay .footer_icon {
+    gap: 5px;
+    
+    }
+    
+    #footer .overlay .footer_icon a {
+    max-width: 28px;
+    height: 28px;
+    flex-wrap: wrap;
+    
+    }
+    
+    #footer .overlay .paragraph .image {
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    
+    }
+    
+    #footer .overlay .paragraph .image p {
+    text-align: justify;
+    }
+    
+    
+    #footer .copy_part h2 {
+        width: auto; 
+        text-align: center;
+    }
+    
+    
+    
+    /* footer part end */
+    
+}
+
+/* Small device end */
+
+/* Medium device start */
+@media  (min-width:768px) and (max-width:991.98px){
+      /* navbar part start */
+      #navbar {
+        background: rgba(0, 0, 0, 0.775) !important;
+        position: fixed;
+        padding: 5px 0;
+        z-index: 999;
+    }
+
+  
+    .navbar-brand {
+    
+        margin-right: 0;
+       
+    }
+    .container .navbar-brand {
+       width: 150px;
+    }
+    .navbar-brand a img{
+        width: 100%;
+        height: 100%;
+     }
+
+/* animation click button start */
+     .animation_cls_btn{
+        width: 40px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        flex-wrap: wrap;
+        padding: 3px;
+        background: transparent;
+        border: none;
+        
+    }
+
+    .animation_cls_btn:focus{
+        background: transparent;
+        box-shadow: none;
+        border: none;
+        outline: 0;
+        
+    }
+
+    .animation_cls_btn span{
+        width: 100%;
+        height: 3px;
+        background: #fff;
+        border-radius: 2px;
+    }
+    
+    .animation_cls_btn span:nth-child(2){
+        height: 2px;
+    }
+
+    .animation_cls_btn span.rotate_1{
+        transform: rotate(48deg) translateX(12px);
+    }
+
+    .animation_cls_btn span.hide{ 
+    transform: translateX(-5px);
+    opacity: 0;
+    visibility: hidden;
+        
+    }
+    .animation_cls_btn span.rotate_2{
+        transform: rotate(132deg) translateX(-12px);
+    }
+
+/* animation click button end */
+
+
+/* navbar part end */
+
+/* Banner part start */
+
+
+#banner .overlay .banner_btn button {
+	font-size: 20px;
+	padding: 10px 17px;
+}
+
+#banner .overlay .banner_information h6 {
+	text-align: center;
+}
+
+#banner .overlay .banner_information p {
+	text-align: justify;
+}
+#banner .overlay .banner_information h1 {
+	font-size: 55px;
+}
+
+#banner .overlay .banner_information h1 span {
+	font-size: 40px;
+}
+
+.banner_btn{
+    justify-content: center;
+}
+
+#banner .overlay .banner_btn button {
+	height: 50px;
+}
+
+/* Banner part end */
+
+/* entertainment part start */
+
+#entertainment {
+	padding: 75px 0;
+}
+
+#entertainment .quality_item .content h2 {
+	font-size: 35px;
+	text-align: center;
+}
+
+#entertainment .quality_item .content p {
+	font-size: 14px;
+	text-align: justify;
+}
+
+#entertainment .quality_item .content button {
+    font-size: 22px;
+	padding: 10px 19px;
+    margin-bottom: 35px;
+}
+
+#entertainment .content_img {
+	height: 250px;
+	width: auto;
+	margin-left: 0;
+	margin: 0 auto;
+}
+
+#entertainment .col-lg-6{
+    text-align: center;
+}
+
+/* entertainment part end */
+
+/* footer part start */
+
+#footer .overlay .footer_icon {
+    gap: 5px;
+    
+    }
+    
+    #footer .overlay .footer_icon a {
+    max-width: 28px;
+    height: 28px;
+    flex-wrap: wrap;
+    
+    }
+    
+    #footer .overlay .paragraph .image {
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    
+    }
+    
+    #footer .overlay .paragraph .image p {
+    text-align: justify;
+    }
+    
+    
+    #footer .copy_part h2 {
+        width: auto; 
+        text-align: center;
+    }
+    
+    
+    
+    /* footer part end */
+    
+}
+
+/* Medium device end */
+
+/* Large device start */
+@media  (min-width:992px) and (max-width:1199.98px){
+
+    /* nav part start */
+#navbar .navbar-nav li {
+     margin-left: 0;
+}
+
+#navbar .navbar-nav li a {
+        font-size: 15px;
+} 
+
+  /* nav part start */
+
+ /* entertainment part start */
+
+#entertainment {
+	padding: 75px 0;
+}
+
+#entertainment .quality_item .content h2 {
+	font-size: 35px;
+	text-align: center;
+}
+
+#entertainment .quality_item .content p {
+	font-size: 14px;
+	text-align: justify;
+}
+
+#entertainment .quality_item .content button {
+    font-size: 22px;
+	padding: 10px 19px;
+    margin-bottom: 35px;
+}
+
+#entertainment .content_img {
+	height: 250px;
+	width: auto;
+	margin-left: 0;
+	margin: 0 auto;
+}
+
+#entertainment .col-lg-6{
+    text-align: center;
+}
+
+/* entertainment part end */
+ 
+}
+
+/* Large device end */
+
+/* XL device start */
+@media  (min-width:1200px) and (max-width:1399.98px){
+    
+}
+
+/* XL device end */
+
+/* XXL device start */
+@media  (min-width:1400px){
+    
+}
+
+/* XXL device end */

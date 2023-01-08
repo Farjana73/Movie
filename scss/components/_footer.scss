@@ -1,0 +1,204 @@
+@import '../variable/variable';
+@import '../mixins/mixins';
+
+/*footer part start*/ 
+
+#footer{
+    background: #162741;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+
+    .overlay{
+        background:  #101C2E;
+        padding: 50px 0;
+        .footer_icon {
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            gap: 15px;
+    
+            a{
+                color: $white;
+                width: 40px;
+                height: 40px;
+                border: 1px solid $white;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: all linear .3s;
+                cursor: pointer;
+    
+                &:hover {
+                    border: 1px solid red;
+                    color: red;
+                }
+            }
+        }
+    
+        .paragraph {
+            padding-top: 50px;
+    
+            .image {
+                max-width: 100%;
+                display: flex;
+                align-items: flex-start;
+                gap: 20px;
+    
+                img {
+                    object-fit: cover
+                }
+    
+                p {
+                    @include paragraph(#E4E4E4, $Inter);
+                    padding-bottom: 34px;
+                }
+            }
+        }
+    
+        .information {
+            padding-top: 50px;
+    
+            h6 {
+                font-family: $Inter;
+                font-weight: 500;
+                font-size: 18px;
+                color: $white;
+            }
+    
+            ul {
+                padding: 0;
+    
+                li {
+                    color: #E4E4E4;
+                    font-family: $Inter;
+                    font-weight: 400;
+                    font-size: 16px;
+                }
+            }
+        }
+     
+    }
+
+    // .footer_contain{
+    //     display: flex;
+    //    justify-content: space-between;
+    //     padding: 50px 0;
+    //     .bottom_img{
+    //         width: 13%;
+    //     }
+
+    //     .paragraph{
+    //         width: 31%;
+    //         p{
+    //             font-family:$Inter;
+    //             font-style: normal;
+    //             font-weight: 400;
+    //             font-size: 16px;
+    //             line-height: 24px;
+    //             letter-spacing: 0.15em;
+    //             color: #E4E4E4;
+    //         }
+    //     }
+
+    //     .company_info{
+    //         width: 20%;
+    //         h5{
+    //             font-family: $Inter;
+    //             font-style: normal;
+    //             font-weight: 400;
+    //             font-size: 18px;
+    //             line-height: 24px;
+    //             letter-spacing: 0.15em;
+    //             color: $white;
+    //             padding-bottom: 10px;
+
+    //         }
+    //         ul li{
+    //             font-family:$Inter;
+    //             font-style: normal;
+    //             font-weight: 400;
+    //             font-size: 16px;
+    //             line-height: 35px;
+    //             letter-spacing: 0.15em;
+    //             color: #E4E4E4;
+    //         }
+    //     }
+
+    //     .account_info{
+    //         width: 13%;
+    //         h5{
+    //             font-family: $Inter;
+    //             font-style: normal;
+    //             font-weight: 400;
+    //             font-size: 18px;
+    //             line-height: 24px;
+    //             letter-spacing: 0.15em;
+    //             color: $white;
+    //             padding-bottom: 10px;
+
+    //         }
+    //         ul li{
+    //             font-family:$Inter;
+    //             font-style: normal;
+    //             font-weight: 400;
+    //             font-size: 16px;
+    //             line-height: 35px;
+    //             letter-spacing: 0.15em;
+    //             color: #E4E4E4;
+    //     }
+
+    // }
+
+    //     .right_info{
+    //         width: 15%;
+    //         h5{
+    //             font-family: $Inter;
+    //             font-style: normal;
+    //             font-weight: 400;
+    //             font-size: 18px;
+    //             line-height: 24px;
+    //             letter-spacing: 0.15em;
+    //             color: $white;
+    //             padding-bottom: 10px;
+
+    //         }
+
+    //         ul li{
+    //             font-family:$Inter;
+    //             font-style: normal;
+    //             font-weight: 400;
+    //             font-size: 16px;
+    //             line-height: 35px;
+    //             letter-spacing: 0.15em;
+    //             color: #E4E4E4;
+    //         }
+    //     }
+    // }
+
+    .copy_part{
+        background-color: #080F18;
+        padding: 10px 0;
+
+        h2{
+            width: 370px;
+            margin: 0 auto;
+            font-family: $jura;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+            color: $white;
+
+            span{
+                color: #FFAB34; 
+               
+                
+            }
+        }
+    }
+}
+
+/*footer part end*/ 

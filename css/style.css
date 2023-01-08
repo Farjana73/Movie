@@ -1,0 +1,390 @@
+/* common css start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+ul, li, ol {
+  list-style: none;
+  padding-left: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* common css end */
+/*All  components link here*/
+/*nav part start*/
+#navbar {
+  background: transparent !important;
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 30px 0;
+}
+#navbar .navbar-nav li {
+  margin-left: 50px;
+}
+#navbar .navbar-nav li a {
+  color: #ffffff !important;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.15em;
+  line-height: 1.2;
+}
+#navbar .navbar-nav li a:focus {
+  color: green !important;
+}
+
+/*side menu start*/
+.offcanvas-body ul {
+  text-align: center;
+}
+
+.offcanvas-body ul li a {
+  color: #244B49;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  position: relative;
+}
+
+.offcanvas-start {
+  top: 55px !important;
+}
+
+.offcanvas-header .btn-close {
+  display: none;
+}
+
+/*side menu start*/
+/*nav part end*/
+/*banner part start*/
+#banner {
+  background: url(../images/Banner_BG.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#banner .overlay {
+  background: linear-gradient(82.06deg, rgba(1, 1, 1, 0.62) 46.14%, rgba(31, 169, 180, 0) 101.22%);
+  box-shadow: inset 0px 115px 83px rgba(0, 0, 0, 0.7);
+  padding-top: 185px;
+}
+#banner .overlay .banner_information h1 {
+  font-family: "Kaushan Script";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 1.5;
+  letter-spacing: 0.15em;
+  color: #ffffff;
+  text-align: center;
+}
+#banner .overlay .banner_information h1 span {
+  display: block;
+  font-size: 50px;
+}
+#banner .overlay .banner_information h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 112%;
+  text-align: center;
+  letter-spacing: 0.15em;
+  color: #ffffff;
+  text-align: left;
+  padding-top: 18px;
+  padding-bottom: 11px;
+}
+#banner .overlay .banner_information p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15em;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  padding-bottom: 23px;
+}
+#banner .overlay .banner_btn {
+  display: flex;
+  padding-top: 10px;
+  gap: 20px;
+  padding-bottom: 66px;
+}
+#banner .overlay .banner_btn button {
+  background: #244B49;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  font-size: 29px;
+  font-weight: 600;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  color: #ffffff;
+  padding: 16px 20px;
+  transition: all linear 0.3s;
+}
+#banner .overlay .banner_btn button:hover {
+  background: #ffffff;
+  color: #173157;
+}
+#banner .overlay .banner_btn button:hover .icon {
+  border: 2px solid #173157;
+}
+#banner .overlay .banner_btn .about_btn {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+#banner .overlay .banner_btn .icon {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all linear 0.3s;
+}
+#banner .overlay .banner_btn .icon i {
+  font-size: 15px;
+}
+#banner .overlay .movie_slider {
+  height: 100%;
+  /*slider center mode start*/
+  /*slider center mode end*/
+}
+#banner .overlay .movie_slider .slide_item {
+  margin: 0 12px;
+  height: 100%;
+}
+#banner .overlay .movie_slider .slide_item .movie_item {
+  height: 100%;
+}
+#banner .overlay .movie_slider .slide_item .movie_item .image {
+  position: relative;
+  height: 100%;
+}
+#banner .overlay .movie_slider .slide_item .movie_item .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#banner .overlay .movie_slider .slide_item .movie_item .image .movie_overlay {
+  background: rgba(22, 39, 65, 0.78);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: all linear 0.3s;
+}
+#banner .overlay .movie_slider .slide_item .movie_item .image .movie_overlay a {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+#banner .overlay .movie_slider .slide_item .movie_item .image .movie_overlay a i {
+  font-size: 35px;
+  color: #ffffff;
+}
+#banner .overlay .movie_slider .slide_item.slick-center .movie_overlay {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+#banner .overlay .movie_slider .slick-track {
+  height: 173px;
+}
+
+/*banner part end*/
+/*entertainment part start*/
+#entertainment {
+  background: #162741;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 122px 0;
+}
+#entertainment .quality_item .content h2 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 1.2;
+  letter-spacing: 0.15em;
+  color: #ffffff;
+  padding-bottom: 20px;
+  text-align: left;
+}
+#entertainment .quality_item .content p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15em;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 23px;
+}
+#entertainment .quality_item .content button {
+  background: #244B49;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  font-size: 29px;
+  font-weight: 600;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  color: #ffffff;
+  padding: 16px 20px;
+  transition: all linear 0.3s;
+}
+#entertainment .quality_item .content button:hover {
+  background: #ffffff;
+  color: #173157;
+}
+#entertainment .quality_item .content button:hover .icon {
+  border: 2px solid #173157;
+}
+#entertainment .content_img {
+  height: 367px;
+  width: 504px;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-left: 40px;
+}
+#entertainment .content_img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/*entertainment part end*/
+/*footer part start*/
+#footer {
+  background: #162741;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#footer .overlay {
+  background: #101C2E;
+  padding: 50px 0;
+}
+#footer .overlay .footer_icon {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 15px;
+}
+#footer .overlay .footer_icon a {
+  color: #ffffff;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all linear 0.3s;
+  cursor: pointer;
+}
+#footer .overlay .footer_icon a:hover {
+  border: 1px solid red;
+  color: red;
+}
+#footer .overlay .paragraph {
+  padding-top: 50px;
+}
+#footer .overlay .paragraph .image {
+  max-width: 100%;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+#footer .overlay .paragraph .image img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#footer .overlay .paragraph .image p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15em;
+  color: #E4E4E4;
+  font-family: "Inter", sans-serif;
+  padding-bottom: 34px;
+}
+#footer .overlay .information {
+  padding-top: 50px;
+}
+#footer .overlay .information h6 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+}
+#footer .overlay .information ul {
+  padding: 0;
+}
+#footer .overlay .information ul li {
+  color: #E4E4E4;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+#footer .copy_part {
+  background-color: #080F18;
+  padding: 10px 0;
+}
+#footer .copy_part h2 {
+  width: 370px;
+  margin: 0 auto;
+  font-family: "Jura", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+#footer .copy_part h2 span {
+  color: #FFAB34;
+}
+
+/*footer part end*/
+/*all pages link start*/
+/*all pages link start*//*# sourceMappingURL=style.css.map */

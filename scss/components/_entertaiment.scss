@@ -1,0 +1,53 @@
+@import '../variable/variable';
+@import '../mixins/mixins';
+
+/*entertainment part start*/ 
+
+#entertainment{
+    background: #162741;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 122px 0;
+
+    .quality_item{
+        .content{
+          
+            h2{
+                @include section_heading;
+                text-align: left;
+
+            }
+            p{
+                @include paragraph($white, $poppins);
+                padding-bottom: 23px;
+            }
+
+            button{
+                @include common_btn;
+              
+            }
+
+        }
+
+    }
+    .content_img{
+        height: 367px;
+        width: 504px;
+        border-radius: 15px;
+        overflow: hidden;
+        margin-left: 40px;
+
+       
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+       
+       
+    }
+  
+}
+
+/*entertainment part end*/ 
